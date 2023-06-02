@@ -1,23 +1,42 @@
-parte HTML:
 <!DOCTYPE html>
 <html lang="pt-br">
-  <body>
+   
     <head>
-    <title>BEM VINDOS</title>
-    <meta charset="utf-8"
-    <style type="text/css"></style>
+   
+        <title>BEM VINDOS</title>
+        <meta charset="utf-8"
+        <link rel="stylesheet" type="text/css" href="maria.css">
+
     </head>
+
+    <body>
+
     <p>olá</p>
-    <h2>amigos e</h2>
+    <h3>amigos e</h3>
     <h3>amigas</h3>
 
-  </body>
+    </body>
+
 </html>
 
-parte CSS:
+
+CSS 
+body {
+    color:rgb(149, 0, 255);
+    font-family: arial, helvetica, sans-serif;
+    font-size:10p;
+}
+
 p {
-    color:indigo;
-    
-    _font-family: arial, helvetica, sans-serif;
-    font-size:10px
+    background-color:darkslateblue;
+    text-align:center;
+
+}
+
+
+h3{
+}
+
+
+h3{
 }

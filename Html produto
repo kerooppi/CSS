@@ -1,0 +1,24 @@
+li{
+    color:palevioletred;   /*001*/
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /*georgia funcionará*/
+}   
+
+ul li{                         /*002*/
+    color:red;
+} 
+
+body .produto ul li{        /*013*/
+    color:orange;
+    /* font-weight:bold; funciona, mas nao com a cor laranja*/
+}
+
+.produto li{                /*011*/
+    color:green;
+}
+
+#produtos li{               /*111*/
+    color:blue;
+    font-weight:bold;
+}

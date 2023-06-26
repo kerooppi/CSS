@@ -1,0 +1,7 @@
+#container{
+    border: solid 5px pink;
+    background-color: rgb(217, 211, 241);
+    width: 50%; 
+    margin: 0 auto;
+    padding: 100px;
+}

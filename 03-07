@@ -1,0 +1,23 @@
+#container{
+    border: solid 5px pink;
+    background-color: rgb(217, 211, 241);
+    width: 50%; 
+    margin: 0 auto;
+    padding: 100px;
+}
+
+header{
+    height: 100px;
+    margin-bottom: 50px;
+    border:1px dashed red;
+}
+
+#produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto{
+    margin: 10px 20px 20px 10px;
+    width: 33%;
+}

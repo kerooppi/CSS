@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-   
     <head>
-   
         <title>BEM VINDOS</title>
      <meta charset="utf-8"
         <link rel="stylesheet" type="text/css" href="maria.css">
-
     </head>
-
     <body>
-
     <p>olá</p>
     <h3>amigos e</h3>
     <h3>amigas</h3>
-
     </body>
-
 </html>
-
 
 CSS 
 body {
@@ -26,17 +18,9 @@ body {
     font-family: arial, helvetica, sans-serif;
     font-size:10p;
 }
-
 p {
     background-color:darkslateblue;
     text-align:center;
-
 }
-
-
-h3{
-}
-
-
 h3{
 }

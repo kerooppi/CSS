@@ -1,5 +1,5 @@
 header{
-    height: 100px;
+    height: 80px;
     margin-bottom: 50px;
     text-align:center;
     font-family: Georgia, serif;
@@ -11,9 +11,30 @@ header{
     font-weight:bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size:25px;
+    height: 40px;
 }
 
 #raças p{
     font-family: Georgia,serif;
     font-size:18px;
+    height: 70px;
 }
+
+.Siâmes img {
+    max-width: 30%;
+    width: 500px;
+    height: 200px;
+}
+
+.Sphynx img {
+    max-width: 30%;
+    width: 500px;
+    height: 250px;
+}
+
+/*
+ajustar tamanho das imagens e dos textos
+cor de fundo
+textos ao lado das imagens
+ajustar o rodapé
+*/

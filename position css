@@ -1,0 +1,12 @@
+#menu-principal li {
+    display: inline-block;
+    position: relative; 
+}
+
+.submenu{
+    background-color :blueviolet;
+    position:absolute;
+    left:1000px;
+}
+#menu-principal li:hover .submenu {}
+    left:0;

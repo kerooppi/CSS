@@ -1,13 +1,33 @@
+#container {
+    background-color: rgb(154, 177, 145);
+    font-family: Georgia, serif;
+}
+
+#container p{
+    float: 
+    /*adicionar float*/
+}
+
 header{
     height: 80px;
     margin-bottom: 50px;
-    text-align:center;
-    font-family: Georgia, serif;
-    font-size:30px;
+    border: 1px solid green;
+    background-color: green; 
+    text-align:right;
+    padding-right: 8px;
+    font-size:10px;
+    display: flex;
+    align-items: center;
+}
+
+#header a{
+    margin: 0px;
+    font-weight: bold;
+    color: black;
 }
 
 #raças h2{
-    color:rgb(164, 84, 184);
+    color:rgb(53, 138, 50);
     font-weight:bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size:25px;
@@ -15,19 +35,21 @@ header{
 }
 
 #raças p{
-    font-family: Georgia,serif;
     font-size:18px;
     height: 70px;
 }
-#container p{
-    position: relative;
-    left: 250px;
-    bottom: 100px;
+
+img{
+    max-width:240px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-/*
-ajustar tamanho das imagens e dos textos
-cor de fundo
-textos ao lado das imagens
-ajustar o rodapé
-*/
+footer{
+    border: 1px solid rgb(53, 138, 50);
+    background-color:rgb(53, 138, 50);
+}
+
+/*ajustar titulo e rodape no meio,
+botoes clicaveis,
+textos ajustados*/

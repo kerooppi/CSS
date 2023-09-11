@@ -1,0 +1,89 @@
+*{
+    position: relative;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    background-color: rgb(154, 177, 145);
+}
+
+#container {
+    display: flex;
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+/*Cor de fundo 
+Todas as fontes iguais*/
+
+header {
+    background-color: rgb(154, 177, 145);
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    margin-top: 2%;
+}
+
+header h1, h2{
+    text-align:center;
+    font-weight:bold;
+}
+
+.container h1, h2{
+    text-align: center;
+}
+
+#cabeçalho{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(53, 138, 50);
+    color:rgb(53, 138, 50);
+    align-items: center;
+    padding: 40px 20px;
+    font-size:18px;
+}
+
+#cabeçalho nav {
+    background-color: rgb(53, 138, 50);
+    display: flex;
+    align-items: center;
+}
+/*nav = menu link
+ajustar*/
+
+#cabeçalho nav a{
+    background-color: rgb(53, 138, 50);
+    margin: 0 10px;
+    color: black;
+    font-weight: bold;
+}
+
+#cabeçalho nav a:hover{
+    color: white;
+}
+
+#submenu {
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(53, 138, 50);
+    color:rgb(53, 138, 50);
+    align-items: center;
+    padding: 40px 20px;
+    font-size:18px;
+}
+
+footer{
+    border: 1px solid rgb(53, 138, 50);
+    background-color:rgb(53, 138, 50);
+    text-align: center; 
+    justify-content: space-around;
+    padding: 40px 20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+footer h2{
+    background-color:rgb(53, 138, 50);
+    text-align: center;
+}

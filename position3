@@ -1,0 +1,118 @@
+*{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    background-color: rgb(154, 177, 145);
+
+}
+
+#container {
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+/*Cor de fundo 
+Todas as fontes iguais*/
+
+header{
+    background-color: rgb(154, 177, 145);
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    margin-top: 2%;
+}
+
+header h1, h2{
+    text-align:center;
+    font-weight:bold;
+}
+
+.container h1, h2{
+    text-align: left;
+}
+
+#cabeçalho{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(53, 138, 50);
+    color:rgb(53, 138, 50);
+    align-items: center;
+    padding: 40px 20px;
+    font-size:18px;
+}
+
+#cabeçalho nav {
+    background-color: rgb(53, 138, 50);
+    display: flex;
+    align-items: center;
+}
+/*nav = menu link
+ajustar*/
+
+#cabeçalho nav a{
+    background-color: rgb(53, 138, 50);
+    margin: 0 10px;
+    color: black;
+    font-weight: bold;
+}
+
+#cabeçalho nav a:hover{
+    color: white;
+}
+
+#filmes h2{
+    color:rgb(53, 138, 50);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    font-weight:bold;
+}
+/*cor dos títulos
+intensidade da fonte; negrito
+tamanho e altura da fonte*/
+
+#div{
+    float: left;
+}
+
+#filmes p{
+    font-size:80%;
+    height: 70px;
+}
+/*os paragrafos tenham 80 de tamanho e 70 de altura*/
+
+img{
+    max-width:240px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*imagens fiquem no tamanho igual*/
+
+footer{
+    border: 1px solid rgb(53, 138, 50);
+    background-color:rgb(53, 138, 50);
+    text-align: center; 
+    justify-content: space-around;
+    padding: 40px 20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+footer h2{
+    background-color:rgb(53, 138, 50);
+text-align: center;
+}
+/*solid linha em volta
+a cor que fica dentro da borda
+cor de fundo e cor da linha*/
+
+.filme{
+    display: flex;
+    align-items: center;
+}
+
+.filme p{
+    padding-left: 5%;
+    padding-right:15%;
+} 
